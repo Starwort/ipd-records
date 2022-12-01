@@ -17,37 +17,37 @@
       <td>Flutter implementation of login page.</td>
       <td>Jacob</td>
       <td>If I enter a username and a password then I should be taken to a home page.</td>
-      <td>?</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>Flutter implementation of sign up page.</td>
       <td>Jacob</td>
       <td>If I enter a username and a password then I should be taken to a home page.</td>
-      <td>?</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>Database user account design</td>
       <td>Albany</td>
-      <td>Showcase DB design model with name, email, (add more)</td>
-      <td>?</td>
+      <td>Showcase DB design model with username, email, mobile, password hash, and default group.</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>Database user account implementation</td>
       <td>Albany</td>
       <td>Database demo</td>
-      <td>?</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>Back-end Database API Design</td>
       <td>Toby</td>
       <td>API demo?</td>
-      <td>?</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>Back-end Database API Implementation</td>
       <td>Toby</td>
       <td>Code sample?</td>
-      <td>?</td>
+      <td>In Progress</td>
     </tr>
     <tr>
       <td>Front-end user data API endpoints integration</td>
