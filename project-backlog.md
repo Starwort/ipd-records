@@ -157,5 +157,37 @@ buy communal products, and which housemates use the most, so that costs can be s
       <td>[acceptance]</td>
       <td>Not Started</td>
     </tr>
+    <tr>
+      <td>New Group</td>
+      <td>As a user i would like to be able to create a new group.</td>
+      <td>[tasks]</td>
+      <td>[owners]</td>
+      <td>[acceptance]</td>
+      <td>Not Started</td>
+    </tr>
+    <tr>
+      <td>Group Switch</td>
+      <td>As a user I would like to be switch between multiple groups.</td>
+      <td>[tasks]</td>
+      <td>[owners]</td>
+      <td>[acceptance]</td>
+      <td>Not Started</td>
+    </tr>
+    <tr>
+      <td>Statements</td>
+      <td>As the admin of a group, I would like to be able to see all of the transactions for my group.</td>
+      <td>[tasks]</td>
+      <td>[owners]</td>
+      <td>[acceptance]</td>
+      <td>Not Started</td>
+    </tr>
+    <tr>
+      <td>Templates</td>
+      <td>As a user I would like to be able to create and use buy/sell templates for regular transaction combinations.</td>
+      <td>[tasks]</td>
+      <td>[owners]</td>
+      <td>[acceptance]</td>
+      <td>Not Started</td>
+    </tr>
   </tbody>
 </table>
