@@ -12,8 +12,8 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan=8>Login/Sign Up</td>
-      <td rowspan=8>As a user I want to be able to login to the system so that I can see my list of groups.</td>
+      <td rowspan=7>Login/Sign Up</td>
+      <td rowspan=7>As a user I want to be able to login to the system so that I can see my list of groups.</td>
       <td>Flutter implementation of login page.</td>
       <td>Jacob</td>
       <td>If I enter a username and a password then I should be taken to a home page.</td>
@@ -22,13 +22,13 @@
     <tr>
       <td>Flutter implementation of sign up page.</td>
       <td>Jacob</td>
-      <td>If I enter a username and a password then I should be taken to a home page.</td>
+      <td>If I enter a username, a password, a matching password, an email, and a phone number, then I should be taken to a home page.</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>Database user account design</td>
       <td>Albany</td>
-      <td>Showcase DB design model with username, email, mobile, password hash, and default group.</td>
+      <td>Showcase design model with user data, group data, transaction data, and object data.</td>
       <td>Done</td>
     </tr>
     <tr>
@@ -40,24 +40,19 @@
     <tr>
       <td>Back-end Database API Design</td>
       <td>Toby</td>
-      <td>API demo?</td>
+      <td>API demo.</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>Back-end Database API Implementation</td>
       <td>Toby</td>
-      <td>Code sample?</td>
+      <td>Code sample.</td>
       <td>In Progress</td>
     </tr>
     <tr>
       <td>Front-end user data API endpoints integration</td>
       <td>Ben</td>
-      <td rowspan=2>Code sample. Test account creation / login. Only go to home page if valid.</td>
-      <td>Not Started</td>
-    </tr>
-    <tr>
-      <td>Back-end user data API endpoints integration</td>
-      <td>Ben</td>
+      <td rowspan=>Code sample. Test account creation / login. Only go to home page if valid.</td>
       <td>Not Started</td>
     </tr>
     <tr>
