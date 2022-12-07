@@ -221,15 +221,63 @@ pub async fn login(
 
 ---
 
-## Ben's task
+## Ben's tasks
 
 - Task: API integration between front-end and back-end
     - Acceptance criterion: Code sample, demo with integrated API or mock interfaces.
     - Time expected: 3h
-    - Time taken: not yet complete
+    - Time taken: 2h (not complete)
 - Task: Backlog refinement
     - Time expected: 3h
     - Time taken: 2h15m
+
+---
+
+### Template API call functions
+```dart
+// for 'incorrect password' error (assuming username is good)
+bool login_email_ok(String username) {
+  return username == "testusername";
+}
+
+bool login_password_ok(String email, String password) {
+  if (!login_email_ok(email)) {
+    return false;
+  }
+
+  return password == "testpassword";
+}
+```
+
+---
+
+### Template API call functions
+```dart
+/// for 'invalid email' error
+bool signup_email_ok(String email) {
+  if (!email.contains('@')) {
+    return false;
+  }
+
+  bool email_taken = email != "testemail@email.com";
+
+  return !email_taken;
+}
+
+/// for 'passwords do not match' error
+bool signup_passwords_match(String pw1, String pw2) {
+  return pw1 == pw2;
+}
+
+/// returns bool success
+bool signup_new_user(String username, String email, String pw1, String pw2) {
+  if (!signup_email_ok(email) || !signup_passwords_match(pw1, pw2)) {
+    return false;
+  }
+
+  return false; // API call
+}
+```
 
 ---
 
