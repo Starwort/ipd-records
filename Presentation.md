@@ -107,12 +107,12 @@
     <tr>
       <td>Back-end user data API Design</td>
       <td rowspan=2>Toby</td>
-      <td>API demo?</td>
+      <td>API demo</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>Back-end user data API Implementation</td>
-      <td>Code sample?</td>
+      <td>Code sample</td>
       <td>In Progress</td>
     </tr>
     <tr>
@@ -264,12 +264,12 @@
     <tr>
       <td>Back-end user data API Design</td>
       <td rowspan=2>Toby</td>
-      <td>API demo?</td>
+      <td>API demo</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>Back-end user data API Implementation</td>
-      <td>Code sample?</td>
+      <td>Code sample</td>
       <td>In Progress</td>
     </tr>
     <tr>
