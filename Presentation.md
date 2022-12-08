@@ -112,14 +112,14 @@
     </tr>
     <tr>
       <td>Back-end user data API Implementation</td>
-      <td>Code sample</td>
+      <td>Code sample - show route definition for at least one route</td>
       <td>In Progress</td>
     </tr>
     <tr>
       <td>API integration between front-end and back-end</td>
       <td>Ben</td>
       <td>Code sample. Test account creation/login. Only go to home page if valid.</td>
-      <td>Not Started</td>
+      <td>In Progress</td>
     </tr>
     <tr>
       <td>App-wide</td>
@@ -269,14 +269,14 @@
     </tr>
     <tr>
       <td>Back-end user data API Implementation</td>
-      <td>Code sample</td>
+      <td>Code sample - show route definition for at least one route</td>
       <td>In Progress</td>
     </tr>
     <tr>
       <td>API integration between front-end and back-end</td>
       <td>Ben</td>
       <td>Code sample. Test account creation/login. Only go to home page if valid.</td>
-      <td>Not Started</td>
+      <td>In Progress</td>
     </tr>
     <tr>
       <td>App-wide</td>
@@ -332,6 +332,8 @@
     - The following slide contains an image of the database diagram
 - Task: Database user account implementation
   - Acceptance criterion: Show example scripts (code sample)
+  - Time expected: 2h
+  - Time taken: 1h30m
 
 </small>
 
@@ -377,9 +379,9 @@ diesel::insert_into(users).values(&new_user).execute(conn)
     - Time taken: 2h
     - Schema on next slide
 - Task: Back-end user data API implementation
-    - Acceptance criterion: Code sample
+    - Acceptance criterion: Code sample - show definition for at least one route.
     - Time expected: 10h
-    - Time taken: not yet complete
+    - Time taken: 5h, ~50% complete
 
 </small>
 
@@ -409,6 +411,12 @@ diesel::insert_into(users).values(&new_user).execute(conn)
 ## Toby's tasks
 #### API routes code sample
 
+<small>
+
+- This is the definition for the `/login` API route.
+
+</small>
+
 ```rust
 #[post("/login", format = "json", data = "<data>")]
 pub async fn login(
@@ -436,8 +444,8 @@ pub async fn login(
 ### Template API call functions
 ```dart
 // for 'incorrect password' error (assuming username is good)
-bool login_email_ok(String username) {
-  return username == "testusername";
+bool login_email_ok(String email) {
+  return email == "test@example.com";
 }
 
 bool login_password_ok(String email, String password) {
@@ -452,6 +460,7 @@ bool login_password_ok(String email, String password) {
 ---
 
 ### Template API call functions
+
 ```dart
 /// for 'invalid email' error
 bool signup_email_ok(String email) {
@@ -463,18 +472,31 @@ bool signup_email_ok(String email) {
 
   return !email_taken;
 }
-
+```
+```dart
 /// for 'passwords do not match' error
 bool signup_passwords_match(String pw1, String pw2) {
   return pw1 == pw2;
 }
+```
 
-/// returns bool success
-bool signup_new_user(String username, String email, String pw1, String pw2) {
-  if (!signup_email_ok(email) || !signup_passwords_match(pw1, pw2)) {
+---
+
+### Template API call functions
+
+```dart
+bool signup_new_user(
+  String username,
+  String email,
+  String pw1,
+  String pw2,
+) {
+  if (
+    !signup_email_ok(email)
+    || !signup_passwords_match(pw1, pw2)
+  ) {
     return false;
   }
-
   return false; // API call
 }
 ```
@@ -485,8 +507,8 @@ bool signup_new_user(String username, String email, String pw1, String pw2) {
 
 - Task: Create 2-3 design palettes
     - Acceptance criterion: Collect feedback from this presentation.
-    - Time expected: NaNh
-    - Time taken: NaNh
+    - Time expected: 5h
+    - Time taken: 3h45m
 - Task: Backlog refinement
     - Time expected: 3h
     - Time taken: 2h15m
