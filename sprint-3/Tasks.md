@@ -24,7 +24,7 @@ Discussion of Sprint 3 tasks and Scrum Leader.
       <td>Ben</td>
       <td>The table you are currently viewing should be filled out.</td>
       <td>1.5hrs : 1.5hrs</td>
-      <td>In Progress</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>Join frontend to backend.</td>
