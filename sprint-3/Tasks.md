@@ -23,7 +23,7 @@ Discussion of Sprint 3 tasks and Scrum Leader.
       <td>Backlog refinement</td>
       <td>Ben</td>
       <td>The table you are currently viewing should be filled out.</td>
-      <td>1.5hrs : ?</td>
+      <td>1.5hrs : 1.5hrs</td>
       <td>In Progress</td>
     </tr>
     <tr>
