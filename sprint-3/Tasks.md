@@ -84,7 +84,7 @@ Review task progress.
       <td>As a user I would like to have an app with an inviting logo that is recognisable</td>
       <td>Designing logo for app</td>
       <td>Aiko</td>
-      <td>Ask for feedback at next meeting, if logo passes would ask to other current students aka potentail clients</td>
+      <td>2 colour logo design, visible at small  scale, defines brand identity</td>
       <td>3h : ?</td>
       <td>In progress</td>
     </tr>
