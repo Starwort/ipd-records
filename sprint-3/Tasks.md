@@ -4,8 +4,8 @@ Meeting on 30/1/2023 (2 hours)
 (Ben, Toby, Albany, Jacob)  
 Discussion of Sprint 3 tasks and Scrum Leader.
 
-Meeting on 06/2/2023 (2 hours)
-(Ben, Toby, Albany, Jacob, Aiko)
+Meeting on 06/2/2023 (2 hours)  
+(Ben, Toby, Albany, Jacob, Aiko)  
 Review task progress.
 
 <table>
@@ -85,7 +85,7 @@ Review task progress.
       <td>Designing logo for app</td>
       <td>Aiko</td>
       <td>2 colour logo design, visible at small  scale, defines brand identity</td>
-      <td>3h : ?</td>
+      <td>3hrs : ?</td>
       <td>In progress</td>
     </tr>
   </tbody>
