@@ -4,6 +4,10 @@ Meeting on 30/1/2023 (2 hours)
 (Ben, Toby, Albany, Jacob)  
 Discussion of Sprint 3 tasks and Scrum Leader.
 
+Meeting on 06/2/2023 (2 hours)
+(Ben, Toby, Albany, Jacob, Aiko)
+Review task progress.
+
 <table>
   <thead>
     <tr>
@@ -45,21 +49,21 @@ Discussion of Sprint 3 tasks and Scrum Leader.
       <td>Jacob</td>
       <td>Dynamic theme switching on existing pages.</td>
       <td>? : ?</td>
-      <td>?</td>
+      <td>In Progress</td>
     </tr>
     <tr>
       <td>Add Item Page</td>
       <td>Jacob</td>
       <td>Interactive page for adding items to the inventory.</td>
       <td>? : ?</td>
-      <td>?</td>
+      <td>In Progress</td>
     </tr>
     <tr>
       <td>View Inventory Page</td>
       <td>Jacob</td>
       <td>Page showing items that are currently in the inventory.</td>
       <td>? : ?</td>
-      <td>?</td>
+      <td>In Progress</td>
     </tr>
     <tr>
       <td>SQL for Adding Items to the Database</td>
@@ -76,13 +80,13 @@ Discussion of Sprint 3 tasks and Scrum Leader.
         <td>?</td>
     </tr>
     <tr>
-      <td>?</td>
-      <td>?</td>
-      <td>?</td>
+      <td>Logo design</td>
+      <td>As a user I would like to have an app with an inviting logo that is recognisable</td>
+      <td>Designing logo for app</td>
       <td>Aiko</td>
-      <td>?</td>
-      <td>? : ?</td>
-      <td>?</td>
+      <td>Ask for feedback at next meeting, if logo passes would ask to other current students aka potentail clients</td>
+      <td>3h : ?</td>
+      <td>In progress</td>
     </tr>
   </tbody>
 </table>
