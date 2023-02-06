@@ -85,7 +85,7 @@ Review task progress.
       <td>Designing logo for app</td>
       <td>Aiko</td>
       <td>2 colour logo design, visible at small  scale, defines brand identity</td>
-      <td>3hrs : ?</td>
+      <td>5hrs : ?</td>
       <td>In progress</td>
     </tr>
   </tbody>
