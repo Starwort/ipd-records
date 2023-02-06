@@ -40,8 +40,8 @@ Review task progress.
     <tr>
       <td>API Routes</td>
       <td>Toby</td>
-      <td>...</td>
-      <td>? : ?</td>
+      <td>Finish API routes listed in #backend-api-design (discord)</td>
+      <td>10hrs : ?</td>
       <td>In Progress</td>
     </tr>
     <tr>
