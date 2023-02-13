@@ -33,51 +33,51 @@ Review task progress.
     <tr>
       <td>Join frontend to backend.</td>
       <td>Ben</td>
-      <td>Frontend app should be able to properly verify login and sign up.</td>
-      <td>6hrs : ?</td>
-      <td>In Progress</td>
+      <td>Frontend app should be able to successfully call API.</td>
+      <td>6hrs : 6hrs</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>API Routes</td>
       <td>Toby</td>
       <td>Finish API routes listed in #backend-api-design (discord)</td>
-      <td>10hrs : ?</td>
-      <td>In Progress</td>
+      <td>10hrs : 1.5hrs</td>
+      <td>Incomplete</td>
     </tr>
     <tr>
       <td>Theming</td>
       <td>Jacob</td>
       <td>Dynamic theme switching on existing pages.</td>
-      <td>? : ?</td>
-      <td>In Progress</td>
+      <td>4hrs : 3.5hrs</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>Add Item Page</td>
       <td>Jacob</td>
       <td>Interactive page for adding items to the inventory.</td>
-      <td>? : ?</td>
-      <td>In Progress</td>
+      <td>2hrs : 1hrs</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>View Inventory Page</td>
       <td>Jacob</td>
       <td>Page showing items that are currently in the inventory.</td>
-      <td>? : ?</td>
-      <td>In Progress</td>
+      <td>2.5hrs : 1.5hrs</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>SQL for Adding Items to the Database</td>
       <td>Albany</td>
       <td>API should be able to update table with new items. (Showcase Queries)</td>
-      <td>? : ?</td>
-      <td>?</td>
+      <td>2hrs : 2hrs</td>
+      <td>Done</td>
     </tr>
     <tr>
         <td>SQL for Viewing Items in the Database</td>
         <td>Albany</td>
         <td>API should be able to retrieve items from table. (Showcase Queries)</td>
-        <td>? : ?</td>
-        <td>?</td>
+        <td>1.5hrs : 1hrs</td>
+        <td>Done</td>
     </tr>
     <tr>
       <td>Logo design</td>
