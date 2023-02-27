@@ -1,0 +1,10 @@
+on:
+  project_card:
+    types: [created, edited, moved]
+name: Project Card Moved
+jobs:
+  triage:
+    name: Auto card labeler
+    runs-on: ubuntu-latest
+    steps:
+      - uses: technote-space/auto-card-labeler@v2
