@@ -1,0 +1,16 @@
+name: 'Issue States'
+
+on:
+  project_card:
+    types: [created, edited, moved]
+
+permissions:
+  repository-projects: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  auto-close:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: dessant/issue-states@v3
