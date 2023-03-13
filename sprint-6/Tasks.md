@@ -1,5 +1,7 @@
 Scrum Leader: Ben
 
+Meeting: Sprint 6 Plan (13/3/2023, 2 hours)
+
 <table>
   <thead>
     <tr>
