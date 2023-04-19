@@ -62,8 +62,8 @@ Meeting: Sprint 6 Plan (13/3/2023, 2 hours)
         Create function in UI project to call the add-item
         API root with data from user form.
       </td>
-      <td>5hrs : []</td>
-      <td>in progress</td>
+      <td>5hrs : 5hrs</td>
+      <td>complete</td>
     </tr>
     <tr>
       <td>Icon Design</td>
