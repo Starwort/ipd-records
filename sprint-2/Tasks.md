@@ -50,10 +50,10 @@
       <td>In Progress</td>
     </tr>
     <tr>
-      <td>Front-end user data API endpoints integration</td>
+      <td>Front-end login / signup API endpoints integration</td>
       <td>Ben</td>
-      <td rowspan=>Code sample. Test account creation / login. Only go to home page if valid.</td>
-      <td>Not Started</td>
+      <td rowspan=>Code sample; test account creation / login. Only go to home page if valid.</td>
+      <td>Incomplete (carry to next sprint)</td>
     </tr>
     <tr>
       <td>? (same as above?)</td>

@@ -22,22 +22,29 @@ Review task progress.
   </thead>
   <tbody>
     <tr>
-      <td rowspan=8>Add Item to Inventory</td>
-      <td rowspan=8>As a supplier for the house, I want to be able to add items to the system.</td>
-      <td>Backlog refinement</td>
+      <td rowspan=2>Log In / Sign Up</td>
+      <td rowspan=2>As a user, I want to be able to login to the system so that I can see my list of groups.</td>
+      <td>Sprint Plan</td>
       <td>Ben</td>
-      <td>The table you are currently viewing should be filled out.</td>
+      <td>Coordinate the team's tasks, and produce a document plan for this Sprint.</td>
       <td>1.5hrs : 1.5hrs</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>Join frontend to backend.</td>
       <td>Ben</td>
-      <td>Frontend app should be able to successfully call API.</td>
+      <td>
+        The frontend should contain a function that,
+        when called, will successfully call the backend
+        via the '/login' API route.
+        The function should then handle the response.
+      </td>
       <td>6hrs : 6hrs</td>
       <td>Done</td>
     </tr>
     <tr>
+      <td rowspan=6>Add Item to Inventory</td>
+      <td rowspan=6>As a supplier for the house, I want to be able to add items to the system.</td>
       <td>API Routes</td>
       <td>Toby</td>
       <td>Finish API routes listed in #backend-api-design (discord)</td>

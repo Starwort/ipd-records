@@ -16,13 +16,14 @@ Meeting: Sprint 7 Plan (13/3/2023, 2 hours)
   </thead>
   <tbody>
     <tr>
-      <td rowspan=6>Add</td>
+      <td rowspan=6>Buy Item</td>
       <td rowspan=6>As a user I would like to be able to buy a product from the inventory.</td>
       <td>Buy Item API Call</td>
       <td>Ben</td>
       <td>
         Create function in UI project to call the buy-item
-        API root using an item id and a quantity.
+        API route using an item id and a quantity,
+        and handle the response.
       </td>
       <td>4hrs: 3.5hrs</td>
       <td>complete</td>
